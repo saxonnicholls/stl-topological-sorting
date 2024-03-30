@@ -9,7 +9,7 @@
 #include <cassert>
 
 #include "stl_topological_sorter.hpp"
-#include "/Users/Shared/Git/cxx-prettyprint/prettyprint.hpp"
+#include "third_party/cxx-prettyprint/prettyprint.hpp"
 
 template <typename S>
 void print_stack( S&& s )
