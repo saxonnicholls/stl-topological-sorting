@@ -2,7 +2,7 @@
 
 The C++ STL library is very handy, however it does not make it easy to topologically sort an STL container. This is a header-only library providing drop in substitutes for std::map, std::unordered_map, std::vector and std::array. A single method **void** **precede**( Key v, Key w ) is provided to construct the directed acyclic graph (DAG). Using boost topological_sort can be cumbersome for many use cases - it was felt that this approach is easier. The emphasis here is on speed and simplicity.
 
-It should be clear to the read how to generalise the approach utilised here to the rest of the STL library. Working examples are provided. Tested on clang **17.0.6** and gcc **13.2** .
+It should be clear to the reader how to generalise the approach utilised here to the rest of the STL library. Working examples are provided. Tested on clang **17.0.6** and gcc **13.2** .
 
 # Complexity
 
