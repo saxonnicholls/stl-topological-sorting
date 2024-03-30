@@ -4,6 +4,7 @@
 //
 //  Created by Saxon Nicholls on 30/3/2024.
 //
+//  me [at] saxonnicholls.com
 
 #include <iostream>
 #include <cassert>
