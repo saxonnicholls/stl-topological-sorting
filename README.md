@@ -4,7 +4,7 @@ The C++ STL library is very handy, however it does not make it easy to topologic
 
 Worked examples are provided.
 
-It should be clear to the reader how to generalise the approach utilised here to the rest of the STL library. Working examples are provided. Tested on clang **17.0.6** and gcc **13.2** .
+It should be clear to the reader how to generalise the approach utilised here to the rest of the STL library. Tested on clang **17.0.6** and gcc **13.2** .
 
 # Complexity
 
