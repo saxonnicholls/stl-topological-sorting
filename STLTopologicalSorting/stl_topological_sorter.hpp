@@ -29,6 +29,7 @@ namespace snicholls {
     // Any Callable with Args if we want them
     template <typename S, typename Callable, typename ... Args >
     inline
+    constexpr
     void stack_helper( S&& s,  Callable&& f, Args&&... args )
     {
         while (s.empty() == false) {
@@ -67,6 +68,7 @@ namespace snicholls {
         // Note that these elements are not automatically inserted into the container - this is by design
         // The DAG represents a constraint
         // We cleanly seperate the contents of the container from the constraints that we impose on the container
+        constexpr
         void precede( Key v, Key w )
         {
             adj[v].push_back(w); // All w's must come after v

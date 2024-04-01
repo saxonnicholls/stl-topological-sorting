@@ -12,7 +12,7 @@ Complexity is O(V + E) where V is the number of vertices and E the number of ele
 
 # Design
 
-To the extent that the DAG represents a set of constraints on the sorting of the container, we cleanly seperate the constraints from the contents of the container. This is deliberate.
+To the extent that the DAG represents a set of constraints on the sorting of the container, we cleanly seperate the constraints from the contents of the container. For instance, if a Key is included in the DAG but not in the container, it is not included in the sort. This is deliberate.
 
 # Ongoing work
 
